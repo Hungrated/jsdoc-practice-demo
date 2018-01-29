@@ -1,0 +1,18 @@
+{
+  "name": "jsdoc-practice-demo",
+  "version": "0.0.1",
+  "description": "A simple demo of application of JSDoc.",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js",
+    "test": "jsdoc -c conf.json -r"
+  },
+  "keywords": [
+    "JSDoc"
+  ],
+  "author": "Hungrated",
+  "license": "MIT",
+  "dependencies": {
+    "jsdoc": "^3.5.5"
+  }
+}
