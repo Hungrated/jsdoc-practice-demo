@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "run": "node index.js",
-    "test": "jsdoc -c conf.json -r"
+    "test": "jsdoc -c conf.json -t ./node_modules/ink-docstrap/template -r --readme README.md"
   },
   "keywords": [
     "JSDoc"
